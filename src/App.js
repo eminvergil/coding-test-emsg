@@ -101,31 +101,6 @@ function App() {
 
 export default App;
 
-// function List({
-//   num = 1,
-//   title = "title",
-//   assign = "assignes",
-//   status = true,
-//   actions,
-// }) {
-//   return (
-//     <div className="flex flex-row gap-5 border-2 justify-start my-2">
-//       <p className="text-2xl font-bold">{num}</p>
-//       <p className="text-2xl font-normal">{title}</p>
-//       <p className="text-2xl font-normal">{assign}</p>
-//       <p className="text-2xl font-normal">{status}</p>
-//       <div className="flex flex-row gap-2">
-//         <button className="text-2xl font-normal p-4 bg-blue-600 text-white">
-//           edit
-//         </button>
-//         <button className="text-2xl font-normal p-4 bg-red-600 text-white">
-//           remove
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
 function List2({ dt, users, next = 10, prev = 0, removeTodoItem }) {
   return (
     <div className="max-w-6xl w-full lg:py-8 py-4 justify-center items-center mx-auto self-center flex">
